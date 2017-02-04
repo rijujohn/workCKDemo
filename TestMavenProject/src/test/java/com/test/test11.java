@@ -1,5 +1,7 @@
 package com.test;
 
+import junit.framework.Assert;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,12 +20,14 @@ public void openForgotPasswordFrame() throws Exception
 	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("http://test-app.t2scdn.com/sandbox/d282d0a522d0c8202778ddb288b61159/calc.php");
-	driver.findElement(By.name("fvalue")).sendKeys("1");
+	driver.findElement(By.name("fvalue")).sendKeys("10");
 	System.out.println(driver.findElement(By.name("fvalue")).getAttribute("value"));
-	driver.findElement(By.name("lvalue")).sendKeys("2");
+	driver.findElement(By.name("lvalue")).sendKeys("20");
 	System.out.println(driver.findElement(By.name("lvalue")).getAttribute("value"));
 	driver.findElement(By.xpath("//button[contains(text(),'Calculate')]")).click();
 	System.out.println(driver.findElement(By.name("result")).getAttribute("value"));
 	driver.close();
+    Assert.assertEquals("30", "1");
+	
 }
 }

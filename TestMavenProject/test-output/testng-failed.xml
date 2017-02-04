@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sampletest]">
+  <test name="Sample1 Tests(failed)">
+    <classes>
+      <class name="com.test.test11">
+        <methods>
+          <include name="openForgotPasswordFrame"/>
+        </methods>
+      </class> <!-- com.test.test11 -->
+    </classes>
+  </test> <!-- Sample1 Tests(failed) -->
+</suite> <!-- Failed suite [sampletest] -->

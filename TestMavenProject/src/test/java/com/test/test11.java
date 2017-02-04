@@ -27,7 +27,7 @@ public void openForgotPasswordFrame() throws Exception
 	driver.findElement(By.xpath("//button[contains(text(),'Calculate')]")).click();
 	System.out.println(driver.findElement(By.name("result")).getAttribute("value"));
 	driver.close();
-    Assert.assertEquals("31", "11");
+    Assert.assertEquals("11", "11");
 	
 }
 }

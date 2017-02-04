@@ -19,6 +19,7 @@ public class calculationtest extends TestBase {
 	homePage HomePage = new homePage();
 
 	//Riju
+	//Updated on 2/4/2017
 	ExtentReports rep = ExtentManager.getInstances();
 
 	

@@ -1,0 +1,90 @@
+package com.cashkaro.testScripts;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+
+import com.cashkaro.excelReader.ExcelDataConfig;
+import com.cashkaro.extent.ExtentManager;
+import com.cashkaro.pageLibrary.homePage.forgotPasswordFrame;
+import com.cashkaro.pageLibrary.homePage.homePage;
+import com.cashkaro.testbase.TestBase;
+import com.relevantcodes.extentreports.ExtentReports;
+
+
+
+
+public class testforgotPassWord extends TestBase {
+	
+	
+	homePage HomePage = new homePage();
+	forgotPasswordFrame ForgotPasswordFrame = new forgotPasswordFrame();
+	//Riju
+	ExtentReports rep = ExtentManager.getInstances();
+
+	
+	@Test(priority = 1)
+	public void openHomePage() throws Exception
+	{
+		init();
+	}
+	
+	@Test(priority = 2,dependsOnMethods={"openHomePage"})
+	public void openForgotPasswordFrame() throws Exception
+	{   
+		test = rep.startTest("Test1ForgotPassword_Step1_OpenSignInPage");
+		HomePage.clickSignINButton();
+		clickWebElement("cashkaro.signInPage.forgotPwdink");
+		rep.endTest(test);
+    	rep.flush();
+	}
+	
+	
+	@Test(priority = 3,dependsOnMethods={"openForgotPasswordFrame"},dataProvider = "passwordTestData")
+	public void testforgotPasswordFrame(String emailEntry,String expectedMessage) throws Exception
+	{   
+		test = rep.startTest("Test1ForgotPassword_Step2_TestForgotPasswordDataVariation");
+		ForgotPasswordFrame.enterEmailclickSubmit(emailEntry,expectedMessage);
+		rep.endTest(test);
+    	rep.flush();
+	}
+	
+	@Test(priority = 4,dependsOnMethods={"openForgotPasswordFrame"})
+	public void closeforgotPasswordFrame() throws Exception
+	{   
+		test = rep.startTest("Test1ForgotPassword_Step3_CloseForgotPasswordwindow");
+		ForgotPasswordFrame.closeFrame();
+		rep.endTest(test);
+    	rep.flush();
+	}
+		
+	@Test(priority = 5) 
+	public void tearPwdDown()
+	{  
+		test = rep.startTest("Test1ForgotPassword_Step4_CloseBrowser");	
+	    closeBrowser();
+	    rep.endTest(test);
+    	rep.flush();
+	}
+	
+	
+	
+	@ DataProvider(name = "passwordTestData")
+	public Object [][] passData() throws Exception
+	{   ExcelDataConfig excelObj = new ExcelDataConfig(System.getProperty("user.dir") + "//src//test//java//com//cashkaro//testData//PassWordTest.xlsx"); 
+	    int rows = excelObj.getRowCount(0);
+        System.out.println("rowe -- " + rows );
+	    Object [][] data = new Object [4][2];
+	    for (int i= 0 ; i<= rows;i++ )  
+        {
+        	data[i][0] = excelObj.getData(0, i, 0);
+        	data[i][1] = excelObj.getData(0, i, 1);
+        }
+		
+		return data;
+	}
+	
+
+	
+	
+}

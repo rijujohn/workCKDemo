@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="cashKaroTests">
+
+<listeners>
+ 
+ <listener class-name="com.cashkaro.listners.Listener"></listener>
+ 
+ </listeners>
+  <test name="Forgot Password Tests" allow-return-values="true">
+    <classes>
+       <class name="com.cashkaro.testScripts.testforgotPassWord"/>
+       
+    </classes>
+  </test>
+   <test name="Login Test" allow-return-values="true">
+    <classes>
+       <class name="com.cashkaro.testScripts.testLogin"/>
+    </classes>
+  </test>
+  <test name="Join With Facebook" allow-return-values="true">
+    <classes>
+       <class name="com.cashkaro.testScripts.testJoinWithFaceBook"/>
+    </classes>
+  </test>
+    <test name="Join Free" allow-return-values="true">
+    <classes>
+       <class name="com.cashkaro.testScripts.testJoinFree"/>
+    </classes>
+  </test>
+  
+  
+</suite> <!-- Suite -->
+
+

@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Join Free</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Join Free</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 03 23:32:39 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>34 seconds (34957 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.openHomePage()'><b>openHomePage</b><br>Test class: com.cashkaro.testScripts.testJoinFree</td>
+<td></td>
+<td>8</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.openJoinFreePage()'><b>openJoinFreePage</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br/>
+<a href="#Output-29212912" onClick='toggleBox("Output-29212912", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29212912" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29212912">
+Webelement --> 'cashkaro.homePage.joinFreeButton' was found in the page.<br/>
+Webelement --> 'cashkaro.homePage.joinFreeButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.homePage.joinFreeButton'<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.tearDown()'><b>tearDown</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br/>
+<a href="#Output-20104729" onClick='toggleBox("Output-20104729", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20104729" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20104729">
+Close browser error<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br>Parameters: Existing John, ri2@gmail.com, blueberry1<br/>
+<a href="#Output-11118142" onClick='toggleBox("Output-11118142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-11118142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-11118142">
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text --> 'Existing John' entered in text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text --> 'ri2@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text --> 'ri2@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text --> 'blueberry1' entered in text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text --> '5' entered in text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'.Value --> 'Existing John'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text not cleared from text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'.Error -invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 27 milliseconds
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'dell-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir7516_16068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9c84edf29ac7587a0da0cf5d0b21341<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br>Parameters: Li Ma, ri2, blueberry2<br/>
+<a href="#Output-13866214" onClick='toggleBox("Output-13866214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13866214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13866214">
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text --> 'Li Ma' entered in text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text --> 'ri2' entered in text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text --> 'ri2' entered in text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text --> 'blueberry2' entered in text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text --> '5' entered in text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'.Value --> 'Li Ma'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text not cleared from text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'.Error -invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 13 milliseconds
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'dell-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir7516_16068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9c84edf29ac7587a0da0cf5d0b21341<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br>Parameters: Rin John, f@gmail, bl<br/>
+<a href="#Output-22668134" onClick='toggleBox("Output-22668134", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22668134" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22668134">
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text --> 'Rin John' entered in text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text --> 'f@gmail' entered in text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text --> 'f@gmail' entered in text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text --> 'bl' entered in text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text --> '5' entered in text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'.Value --> 'Rin John'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text not cleared from text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'.Error -invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'dell-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir7516_16068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9c84edf29ac7587a0da0cf5d0b21341<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br>Parameters: Rem John, ri4@gmail.com, ""<br/>
+<a href="#Output-26492970" onClick='toggleBox("Output-26492970", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26492970" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26492970">
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text --> 'Rem John' entered in text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text --> 'ri4@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text --> 'ri4@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text --> '""' entered in text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text --> '5' entered in text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'.Value --> 'Rem John'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text returned from web element --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'.Value --> 'Please enter a valid email.'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text not cleared from text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'.Error -invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=55.0.2883.87)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 18 milliseconds
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'dell-PC', ip: '192.168.1.3', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\dell\AppData\Local\Temp\scoped_dir7516_16068}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=55.0.2883.87, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f9c84edf29ac7587a0da0cf5d0b21341<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testJoinFree.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testJoinFree<br>Parameters: VALID Rem , ri77@gmail.com, blueberry2<br/>
+<a href="#Output-17914107" onClick='toggleBox("Output-17914107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17914107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17914107">
+Webelement --> 'cashkaro.joinNowPage.joinFreeFullNameTxt' was found in the page.<br/>
+Text --> 'VALID Rem ' entered in text field --> 'cashkaro.joinNowPage.joinFreeFullNameTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeEmailTxt' was found in the page.<br/>
+Text --> 'ri77@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt' was found in the page.<br/>
+Text --> 'ri77@gmail.com' entered in text field --> 'cashkaro.joinNowPage.joinFreeConfirmEmailTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinChoosePwdTxt' was found in the page.<br/>
+Text --> 'blueberry2' entered in text field --> 'cashkaro.joinNowPage.joinChoosePwdTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinCapchaTxt' was found in the page.<br/>
+Text --> '5' entered in text field --> 'cashkaro.joinNowPage.joinCapchaTxt'<br/>
+Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.joinNowPage.joinFreeNowButton'<br/>
+Webelement --> 'cashkaro.userHomePage.welcomeMessage' was found in the page.<br/>
+Webelement --> 'cashkaro.userHomePage.welcomeMessage' was found in the page.<br/>
+Text --> 'Hello VALID Rem,' was retreived for field --> 'cashkaro.userHomePage.welcomeMessage'<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.cashkaro.testScripts.testJoinFree@e677af</td></tr>
+</table><p>
+</body>
+</html>

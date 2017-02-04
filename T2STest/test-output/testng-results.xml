@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-2']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '3']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+    </line>
+    <line>
+      <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+    </line>
+    <line>
+      <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '0']]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21964" started-at="2017-02-04T09:38:03Z" finished-at="2017-02-04T09:38:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21964" started-at="2017-02-04T09:38:03Z" finished-at="2017-02-04T09:38:25Z">
+      <class name="com.t2s.testScripts.calculationtest">
+        <test-method status="PASS" signature="openHomePage()[pri:1, instance:com.t2s.testScripts.calculationtest@52e677af]" name="openHomePage" duration-ms="9770" started-at="2017-02-04T15:08:03Z" finished-at="2017-02-04T15:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.t2s.testScripts.calculationtest@52e677af]" name="validateAddition" duration-ms="4284" started-at="2017-02-04T15:08:15Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:08:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAddition -->
+        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.t2s.testScripts.calculationtest@52e677af]" name="validateAddition" duration-ms="1963" started-at="2017-02-04T15:08:19Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:08:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-2']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateAddition -->
+        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.t2s.testScripts.calculationtest@52e677af]" name="validateSubstraction" duration-ms="2047" started-at="2017-02-04T15:08:21Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSubstraction -->
+        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.t2s.testScripts.calculationtest@52e677af]" name="validateSubstraction" duration-ms="1931" started-at="2017-02-04T15:08:23Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:08:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtFirstVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '3']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.selOperator' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.btnCalc' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Webelement --> 't2s.calchomePage.btnCalc']]>
+            </line>
+            <line>
+              <![CDATA[Webelement --> 't2s.calchomePage.txtResult' was found in the page.]]>
+            </line>
+            <line>
+              <![CDATA[Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '0']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSubstraction -->
+      </class> <!-- com.t2s.testScripts.calculationtest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

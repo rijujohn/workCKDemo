@@ -1,0 +1,211 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 03 23:31:49 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>28 seconds (28402 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.closeSignINFrame()'><b>closeSignINFrame</b><br>Test class: com.cashkaro.testScripts.testLogin<br/>
+<a href="#Output-21420047" onClick='toggleBox("Output-21420047", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-21420047" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-21420047">
+Webelement --> 'cashkaro.signInframe.closeIcon' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.signInframe.closeIcon'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.openHomePage()'><b>openHomePage</b><br>Test class: com.cashkaro.testScripts.testLogin</td>
+<td></td>
+<td>8</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.openSignInPage()'><b>openSignInPage</b><br>Test class: com.cashkaro.testScripts.testLogin<br/>
+<a href="#Output-27809245" onClick='toggleBox("Output-27809245", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-27809245" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-27809245">
+Webelement --> 'cashkaro.homePage.signInLink' was found in the page.<br/>
+Webelement --> 'cashkaro.homePage.signInLink' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.homePage.signInLink'<br/>
+Webelement --> 'cashkaro.signInframe' was found in the page.<br/>
+Control switched to frame --> '[[ChromeDriver: chrome on XP (c775eaa18f0ce1efd0a00c2f4f4c6199)] -> class name: cboxIframe]'<br/>
+Webelement --> 'cashkaro.signInPage.forgotPwdink' was found in the page.<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.tearDown()'><b>tearDown</b><br>Test class: com.cashkaro.testScripts.testLogin<br/>
+<a href="#Output-22609822" onClick='toggleBox("Output-22609822", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22609822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22609822">
+Close browser error<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: rjNOT@gmail.com, dfdsf, Please enter valid password.<br/>
+<a href="#Output-22395168" onClick='toggleBox("Output-22395168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22395168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22395168">
+Webelement --> 'cashkaro.signInframe.emailTxt' was found in the page.<br/>
+Text --> 'rjNOT@gmail.com' entered in text field --> 'cashkaro.signInframe.emailTxt'<br/>
+Webelement --> 'cashkaro.signInframe.passwordTxt' was found in the page.<br/>
+Text --> 'dfdsf' entered in text field --> 'cashkaro.signInframe.passwordTxt'<br/>
+Webelement --> 'cashkaro.signInframe.SignInButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.signInframe.SignInButton'<br/>
+Webelement --> 'cashkaro.signInframe.loginMessage' was found in the page.<br/>
+Webelement --> 'cashkaro.signInframe.loginMessage' was found in the page.<br/>
+Text --> 'Please enter valid password.' was retreived for field --> 'cashkaro.signInframe.loginMessage'<br/>
+Webelement --> 'cashkaro.signInframe.emailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.signInframe.emailTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: rijujohn, blue, Please enter valid password.<br/>
+<a href="#Output-22089846" onClick='toggleBox("Output-22089846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-22089846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-22089846">
+Webelement --> 'cashkaro.signInframe.emailTxt' was found in the page.<br/>
+Text --> 'rijujohn' entered in text field --> 'cashkaro.signInframe.emailTxt'<br/>
+Webelement --> 'cashkaro.signInframe.passwordTxt' was found in the page.<br/>
+Text --> 'blue' entered in text field --> 'cashkaro.signInframe.passwordTxt'<br/>
+Webelement --> 'cashkaro.signInframe.SignInButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.signInframe.SignInButton'<br/>
+Webelement --> 'cashkaro.signInframe.loginMessage' was found in the page.<br/>
+Webelement --> 'cashkaro.signInframe.loginMessage' was found in the page.<br/>
+Text --> 'Please enter valid password.' was retreived for field --> 'cashkaro.signInframe.loginMessage'<br/>
+Webelement --> 'cashkaro.signInframe.emailTxt' was found in the page.<br/>
+Text cleared from text field --> 'cashkaro.signInframe.emailTxt'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.testTheLogin()'><b>testTheLogin</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: VALIDron@gmail.com, blueberry, Hello Ron,</td>
+<td></td>
+<td>0</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.validSignINFrame()'><b>validSignINFrame</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: rjNOT@gmail.com, dfdsf, Please enter valid password.</td>
+<td></td>
+<td>0</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.validSignINFrame()'><b>validSignINFrame</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: rijujohn, blue, Please enter valid password.</td>
+<td></td>
+<td>0</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+<tr>
+<td title='com.cashkaro.testScripts.testLogin.validSignINFrame()'><b>validSignINFrame</b><br>Test class: com.cashkaro.testScripts.testLogin<br>Parameters: VALIDron@gmail.com, blueberry, Hello Ron,<br/>
+<a href="#Output-32930425" onClick='toggleBox("Output-32930425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-32930425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-32930425">
+Webelement --> 'cashkaro.homePage.signInLink' was found in the page.<br/>
+Webelement --> 'cashkaro.homePage.signInLink' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.homePage.signInLink'<br/>
+Webelement --> 'cashkaro.signInframe' was found in the page.<br/>
+Control switched to frame --> '[[ChromeDriver: chrome on XP (c775eaa18f0ce1efd0a00c2f4f4c6199)] -> class name: cboxIframe]'<br/>
+Webelement --> 'cashkaro.signInPage.forgotPwdink' was found in the page.<br/>
+Webelement --> 'cashkaro.signInframe.emailTxt' was found in the page.<br/>
+Text --> 'ron@gmail.com' entered in text field --> 'cashkaro.signInframe.emailTxt'<br/>
+Webelement --> 'cashkaro.signInframe.passwordTxt' was found in the page.<br/>
+Text --> 'blueberry' entered in text field --> 'cashkaro.signInframe.passwordTxt'<br/>
+Webelement --> 'cashkaro.signInframe.SignInButton' was found in the page.<br/>
+Clicked on Webelement --> 'cashkaro.signInframe.SignInButton'<br/>
+Webelement --> 'cashkaro.userHomePage.welcomeMessage' was found in the page.<br/>
+Webelement --> 'cashkaro.userHomePage.welcomeMessage' was found in the page.<br/>
+Text --> 'Hello Ron,' was retreived for field --> 'cashkaro.userHomePage.welcomeMessage'<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.cashkaro.testScripts.testLogin@cff1a</td></tr>
+</table><p>
+</body>
+</html>

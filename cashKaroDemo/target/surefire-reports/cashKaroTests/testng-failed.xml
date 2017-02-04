@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [cashKaroTests]">
+  <listeners>
+    <listener class-name="com.cashkaro.listners.Listener"/>
+  </listeners>
+  <test name="Forgot Password Tests(failed)">
+    <classes>
+      <class name="com.cashkaro.testScripts.testforgotPassWord">
+        <methods>
+          <include name="openForgotPasswordFrame"/>
+          <include name="openHomePage"/>
+          <include name="closeforgotPasswordFrame"/>
+          <include name="testforgotPasswordFrame"/>
+        </methods>
+      </class> <!-- com.cashkaro.testScripts.testforgotPassWord -->
+    </classes>
+  </test> <!-- Forgot Password Tests(failed) -->
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.cashkaro.testScripts.testLogin">
+        <methods>
+          <include name="openSignInPage"/>
+          <include name="openHomePage"/>
+          <include name="closeSignINFrame"/>
+          <include name="validSignINFrame" invocation-numbers="2"/>
+          <include name="testTheLogin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.cashkaro.testScripts.testLogin -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Join With Facebook(failed)">
+    <classes>
+      <class name="com.cashkaro.testScripts.testJoinWithFaceBook">
+        <methods>
+          <include name="openJoinFB"/>
+          <include name="openJoinFreePage"/>
+          <include name="tearDown"/>
+          <include name="validateFBLinks"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- com.cashkaro.testScripts.testJoinWithFaceBook -->
+    </classes>
+  </test> <!-- Join With Facebook(failed) -->
+  <test name="Join Free(failed)">
+    <classes>
+      <class name="com.cashkaro.testScripts.testJoinFree">
+        <methods>
+          <include name="openJoinFreePage"/>
+          <include name="testTheLogin" invocation-numbers="0 1 2 3 4"/>
+          <include name="openHomePage"/>
+        </methods>
+      </class> <!-- com.cashkaro.testScripts.testJoinFree -->
+    </classes>
+  </test> <!-- Join Free(failed) -->
+</suite> <!-- Failed suite [cashKaroTests] -->

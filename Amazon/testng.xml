@@ -3,7 +3,18 @@
 <suite name="Suite" parallel = "methods">
   <test name="Test">
     <classes>
-      <class name="amazondropdown"/>
+      <class name="amazondropdown">
+      <methods>
+      <exclude name="CheckSearchSuggestions"/>
+      <exclude name="CheckAllCategories"/>
+       <exclude name="verifyTryPrime"/>
+       <exclude name="CheckYourOrders"/>
+       <exclude name="CheckYourLists"/>
+       <exclude name="VerifyCartContent"/>
+      </methods>
+      </class>
     </classes>
-  </test> <!-- Test -->
+  </test>
+    
+   <!-- Test -->
 </suite> <!-- Suite -->

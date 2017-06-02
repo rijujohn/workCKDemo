@@ -48,18 +48,6 @@ public class calculationtest extends TestBase {
 	
 	
 	
-/*
-		
-	@Test(priority = 5) 
-	public void tearPwdDown()
-	{  
-		test = rep.startTest("Test1ForgotPassword_Step4_CloseBrowser");	
-	    closeBrowser();
-	    rep.endTest(test);
-    	rep.flush();
-	}
-	
-*/	
 	
 	@ DataProvider(name = "AdditionTestData")
 	public Object [][] passData() throws Exception

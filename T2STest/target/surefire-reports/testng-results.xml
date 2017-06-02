@@ -164,16 +164,16 @@
       <![CDATA[From listner - Ending the test org.testng.TestRunner@5c18298f]]>
     </line>
   </reporter-output>
-  <suite name="t2s" duration-ms="27847" started-at="2017-02-04T09:39:11Z" finished-at="2017-02-04T09:39:39Z">
+  <suite name="t2s" duration-ms="37116" started-at="2017-02-13T05:27:19Z" finished-at="2017-02-13T05:27:56Z">
     <groups>
     </groups>
-    <test name="Forgot Password Tests" duration-ms="27847" started-at="2017-02-04T09:39:11Z" finished-at="2017-02-04T09:39:39Z">
+    <test name="Forgot Password Tests" duration-ms="37116" started-at="2017-02-13T05:27:19Z" finished-at="2017-02-13T05:27:56Z">
       <class name="com.t2s.testScripts.calculationtest">
-        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="openHomePage" duration-ms="14939" started-at="2017-02-04T15:09:11Z" finished-at="2017-02-04T15:09:26Z">
+        <test-method status="PASS" signature="openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="openHomePage" duration-ms="21007" started-at="2017-02-13T10:57:19Z" finished-at="2017-02-13T10:57:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHomePage -->
-        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateAddition" duration-ms="4526" started-at="2017-02-04T15:09:28Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:09:32Z">
+        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateAddition" duration-ms="4697" started-at="2017-02-13T10:57:42Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-13T10:57:47Z">
           <params>
             <param index="0">
               <value>
@@ -233,7 +233,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateAddition -->
-        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateAddition" duration-ms="2302" started-at="2017-02-04T15:09:32Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:09:34Z">
+        <test-method status="PASS" signature="validateAddition(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateAddition" duration-ms="3204" started-at="2017-02-13T10:57:47Z" data-provider="AdditionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-13T10:57:50Z">
           <params>
             <param index="0">
               <value>
@@ -293,7 +293,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateAddition -->
-        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateSubstraction" duration-ms="2210" started-at="2017-02-04T15:09:34Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:09:37Z">
+        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateSubstraction" duration-ms="2856" started-at="2017-02-13T10:57:50Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-13T10:57:53Z">
           <params>
             <param index="0">
               <value>
@@ -353,7 +353,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateSubstraction -->
-        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateSubstraction" duration-ms="2393" started-at="2017-02-04T15:09:37Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-04T15:09:39Z">
+        <test-method status="PASS" signature="validateSubstraction(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.t2s.testScripts.calculationtest@4524411f]" name="validateSubstraction" duration-ms="2902" started-at="2017-02-13T10:57:53Z" data-provider="substractionTestData" depends-on-methods="com.t2s.testScripts.calculationtest.openHomePage" finished-at="2017-02-13T10:57:56Z">
           <params>
             <param index="0">
               <value>

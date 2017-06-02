@@ -1,38 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="6" total="8" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="15081" started-at="2017-02-09T12:27:02Z" finished-at="2017-02-09T12:27:17Z">
+  <suite name="Suite" duration-ms="42711" started-at="2017-06-02T17:35:03Z" finished-at="2017-06-02T17:35:45Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="15081" started-at="2017-02-09T12:27:02Z" finished-at="2017-02-09T12:27:17Z">
+    <test name="Test" duration-ms="42711" started-at="2017-06-02T17:35:03Z" finished-at="2017-06-02T17:35:45Z">
       <class name="amazondropdown">
-        <test-method status="PASS" signature="Initiate()[pri:0, instance:amazondropdown@61832929]" name="Initiate" is-config="true" duration-ms="5454" started-at="2017-02-09T17:57:02Z" finished-at="2017-02-09T17:57:07Z">
+        <test-method status="PASS" signature="Initiate()[pri:0, instance:amazondropdown@59f99ea]" name="Initiate" is-config="true" duration-ms="11899" started-at="2017-06-02T23:05:03Z" finished-at="2017-06-02T23:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Initiate -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:amazondropdown@61832929]" name="Login" duration-ms="5918" started-at="2017-02-09T17:57:07Z" finished-at="2017-02-09T17:57:13Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:amazondropdown@59f99ea]" name="Login" duration-ms="5261" started-at="2017-06-02T23:05:15Z" finished-at="2017-06-02T23:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="CheckAllCategories()[pri:0, instance:amazondropdown@61832929]" name="CheckAllCategories" duration-ms="9266" started-at="2017-02-09T17:57:07Z" finished-at="2017-02-09T17:57:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CheckAllCategories -->
-        <test-method status="FAIL" signature="CheckSearchSuggestions()[pri:0, instance:amazondropdown@61832929]" name="CheckSearchSuggestions" duration-ms="9571" started-at="2017-02-09T17:57:07Z" finished-at="2017-02-09T17:57:17Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="verifyImageSliding()[pri:0, instance:amazondropdown@59f99ea]" name="verifyImageSliding" duration-ms="25111" started-at="2017-06-02T23:05:20Z" depends-on-methods="amazondropdown.Login" finished-at="2017-06-02T23:05:45Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [hard drive in Electronics] but found [hard drive in Amazon Fashion]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='a-carousel-col a-carousel-left']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'User-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir3344_4127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eff4ac6ce82cf4acd34f5536095787ec
+*** Element info: {Using=xpath, value=//div[@class='a-carousel-col a-carousel-left']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [hard drive in Electronics] but found [hard drive in Amazon Fashion]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at amazondropdown.CheckSearchSuggestions(amazondropdown.java:92)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='a-carousel-col a-carousel-left']"}
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '1969d75', time: '2016-10-18 09:43:45 -0700'
+System info: host: 'User-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\User\AppData\Local\Temp\scoped_dir3344_4127}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: eff4ac6ce82cf4acd34f5536095787ec
+*** Element info: {Using=xpath, value=//div[@class='a-carousel-col a-carousel-left']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at amazondropdown.verifyImageSliding(amazondropdown.java:236)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -48,10 +69,10 @@
 	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckSearchSuggestions -->
+        </test-method> <!-- verifyImageSliding -->
       </class> <!-- amazondropdown -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

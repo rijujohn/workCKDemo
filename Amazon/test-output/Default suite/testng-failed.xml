@@ -5,9 +5,10 @@
     <classes>
       <class name="amazondropdown">
         <methods>
+          <include name="Login"/>
           <include name="Initiate"/>
-          <include name="CheckSearchSuggestions"/>
-          <include name="CheckAllCategories"/>
+          <include name="CheckYourOrders"/>
+          <include name="verifyTryPrime"/>
         </methods>
       </class> <!-- amazondropdown -->
     </classes>

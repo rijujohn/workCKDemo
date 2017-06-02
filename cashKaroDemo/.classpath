@@ -27,7 +27,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/JarFiles/Selenium/client-combined-3.0.1-nodeps.jar"/>
+	<classpathentry kind="lib" path="D:/JarFiles/Selenium/client-combined-3.0.1-nodeps.jar" sourcepath="D:/JarFiles/Selenium/client-combined-3.0.1-nodeps.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://seleniumhq.github.io/selenium/docs/api/java/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="D:/JarFiles/Extent/lib/testng-6.9.10.jar"/>
 	<classpathentry kind="lib" path="D:/JarFiles/Extent/Extent_2.1/extentreports-java-2.41.2/extentreports-2.41.2.jar"/>
 	<classpathentry kind="lib" path="D:/JarFiles/Extent/Extent_2.1/extentreports-java-2.41.2/lib/ant-1.7.0.jar"/>

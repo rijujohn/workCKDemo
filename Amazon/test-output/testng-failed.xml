@@ -5,8 +5,9 @@
     <classes>
       <class name="amazondropdown">
         <methods>
+          <include name="Login"/>
+          <include name="verifyImageSliding"/>
           <include name="Initiate"/>
-          <include name="CheckSearchSuggestions"/>
         </methods>
       </class> <!-- amazondropdown -->
     </classes>

@@ -31,110 +31,49 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Forgot Password Tests</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">37.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Forgot Password Tests</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi_attn">1</td><td class="numi">14.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Forgot Password Tests &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="5">com.t2s.testScripts.calculationtest</td><td><a href="#m1"><b>openHomePage</b>  </a></td><td class="numi">1</td><td>1486963639208</td><td class="numi">21007</td></tr><tr class="passedodd"><td><a href="#m2"><b>validateAddition</b>  </a></td><td class="numi">2</td><td>1486963662493</td><td class="numi">7904</td></tr><tr class="passedodd"><td><a href="#m3"><b>validateAddition</b>  </a></td><td class="numi">2</td><td>1486963662493</td><td class="numi">7904</td></tr><tr class="passedodd"><td><a href="#m4"><b>validateSubstraction</b>  </a></td><td class="numi">2</td><td>1486963670547</td><td class="numi">5758</td></tr><tr class="passedodd"><td><a href="#m5"><b>validateSubstraction</b>  </a></td><td class="numi">2</td><td>1486963670547</td><td class="numi">5758</td></tr>
+<tr><th colspan="4">Forgot Password Tests &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">com.t2s.testScripts.calculationtest</td><td><a href="#m1"><b>openHomePage</b>  </a></td><td class="numi">1</td><td>1523687505370</td><td class="numi">14644</td></tr>
+<tr><th colspan="4">Forgot Password Tests &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.t2s.testScripts.calculationtest</td><td><a href="#m2"><b>validateSubstraction</b>  </a></td><td class="numi">1</td><td>1523687520218</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m3"><b>validateAddition</b>  </a></td><td class="numi">1</td><td>1523687520198</td><td class="numi">0</td></tr>
 </table>
 <h1>Forgot Password Tests</h1>
-<h2 id="m1">com.t2s.testScripts.calculationtest:validateAddition</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>1</td>
-<td>3</td>
-<td>4</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="3">
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'<br/>
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3'<br/>
-Webelement --> 't2s.calchomePage.selOperator' was found in the page.<br/>
-Webelement --> 't2s.calchomePage.btnCalc' was found in the page.<br/>
-Clicked on Webelement --> 't2s.calchomePage.btnCalc'<br/>
-Webelement --> 't2s.calchomePage.txtResult' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-2'<br/>
-</td></tr>
-</table>
+<h2 id="m1">com.t2s.testScripts.calculationtest:openHomePage</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output={null}]<br/>
+From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output=From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output={null}]]<br/>
+<h3>Failure</h3>
+<p>unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.24 seconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-3US0J0PL&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\riju\AppData\Local\Temp\scoped_dir4796_15364}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d042f204ab310684a32f505d7e28808e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+<br/>at com.t2s.testutil.Utils.selectBrowser(Utils.java:80)
+<br/>at com.t2s.testbase.TestBase.init(TestBase.java:35)
+<br/>at com.t2s.testScripts.calculationtest.openHomePage(calculationtest.java:29)
+<br/>28 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">com.t2s.testScripts.calculationtest:validateSubstraction</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>3</td>
-<td>3</td>
-<td>0</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="3">
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text --> '3' entered in text field --> 't2s.calchomePage.txtFirstVal'<br/>
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '3'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3'<br/>
-Webelement --> 't2s.calchomePage.selOperator' was found in the page.<br/>
-Webelement --> 't2s.calchomePage.btnCalc' was found in the page.<br/>
-Clicked on Webelement --> 't2s.calchomePage.btnCalc'<br/>
-Webelement --> 't2s.calchomePage.txtResult' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '0'<br/>
-</td></tr>
-</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.t2s.testScripts.calculationtest:openHomePage</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.t2s.testScripts.calculationtest:validateAddition</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>1</td>
-<td>2</td>
-<td>3</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="3">
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'<br/>
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2'<br/>
-Webelement --> 't2s.calchomePage.selOperator' was found in the page.<br/>
-Webelement --> 't2s.calchomePage.btnCalc' was found in the page.<br/>
-Clicked on Webelement --> 't2s.calchomePage.btnCalc'<br/>
-Webelement --> 't2s.calchomePage.txtResult' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1'<br/>
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.t2s.testScripts.calculationtest:validateSubstraction</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
-<tr class="param stripe"><td>1</td>
-<td>2</td>
-<td>-1</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="3">
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'<br/>
-Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal'<br/>
-Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2'<br/>
-Webelement --> 't2s.calchomePage.selOperator' was found in the page.<br/>
-Webelement --> 't2s.calchomePage.btnCalc' was found in the page.<br/>
-Clicked on Webelement --> 't2s.calchomePage.btnCalc'<br/>
-Webelement --> 't2s.calchomePage.txtResult' was found in the page.<br/>
-Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1'<br/>
-</td></tr>
-</table>
+<h2 id="m3">com.t2s.testScripts.calculationtest:validateAddition</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -21,10 +21,11 @@
       <class name="com.cashkaro.testScripts.testLogin">
         <methods>
           <include name="openSignInPage"/>
+          <include name="tearDown"/>
           <include name="openHomePage"/>
           <include name="closeSignINFrame"/>
-          <include name="validSignINFrame" invocation-numbers="2"/>
-          <include name="testTheLogin" invocation-numbers="0 1"/>
+          <include name="validSignINFrame"/>
+          <include name="testTheLogin"/>
         </methods>
       </class> <!-- com.cashkaro.testScripts.testLogin -->
     </classes>
@@ -47,7 +48,8 @@
       <class name="com.cashkaro.testScripts.testJoinFree">
         <methods>
           <include name="openJoinFreePage"/>
-          <include name="testTheLogin" invocation-numbers="0 1 2 3 4"/>
+          <include name="tearDown"/>
+          <include name="testTheLogin"/>
           <include name="openHomePage"/>
         </methods>
       </class> <!-- com.cashkaro.testScripts.testJoinFree -->

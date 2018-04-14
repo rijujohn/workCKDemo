@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-t2s">
-              <span class="suite-name border-passed">t2s</span>
+              <span class="suite-name border-failed">t2s</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-t2s">
-                    <span>D:\GitRepo\T2STest\src\main\resources\testng.xml</span>
+                    <span>D:\Work\Projects\workCKDemo\T2STest\src\main\resources\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,41 +90,40 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  2 skipped,  </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-t2s" class="hide-methods passed suite-t2s"> (hide)</a> <!-- hide-methods passed suite-t2s -->
-                      <a href="#" panel-name="suite-t2s" class="show-methods passed suite-t2s"> (show)</a> <!-- show-methods passed suite-t2s -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-t2s" class="hide-methods failed suite-t2s"> (hide)</a> <!-- hide-methods failed suite-t2s -->
+                      <a href="#" panel-name="suite-t2s" class="show-methods failed suite-t2s"> (show)</a> <!-- show-methods failed suite-t2s -->
                     </span>
-                    <div class="method-list-content passed suite-t2s">
+                    <div class="method-list-content failed suite-t2s">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="openHomePage">openHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                    </div> <!-- method-list-content failed suite-t2s -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-t2s" class="hide-methods skipped suite-t2s"> (hide)</a> <!-- hide-methods skipped suite-t2s -->
+                      <a href="#" panel-name="suite-t2s" class="show-methods skipped suite-t2s"> (show)</a> <!-- show-methods skipped suite-t2s -->
+                    </span>
+                    <div class="method-list-content skipped suite-t2s">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateAddition(1, 3, 4)">validateAddition(1, 3, 4)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateAddition">validateAddition</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateAddition(1, 2, 3)">validateAddition(1, 2, 3)</a> <!-- method navigator-link -->
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateSubstraction">validateSubstraction</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateSubstraction(3, 3, 0)">validateSubstraction(3, 3, 0)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-t2s" title="com.t2s.testScripts.calculationtest" hash-for-method="validateSubstraction(1, 2, -1)">validateSubstraction(1, 2, -1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content passed suite-t2s -->
+                    </div> <!-- method-list-content skipped suite-t2s -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,9 +135,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-t2s" class="panel t2s">
-          <div class="suite-t2s-class-passed">
+          <div class="suite-t2s-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.t2s.testScripts.calculationtest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -147,46 +146,111 @@
                   <a name="openHomePage">
                   </a> <!-- openHomePage -->
                   <span class="method-name">openHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAddition(1, 3, 4)">
-                  </a> <!-- validateAddition(1, 3, 4) -->
-                  <span class="method-name">validateAddition</span>
-                  <span class="parameters">(1, 3, 4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateAddition(1, 2, 3)">
-                  </a> <!-- validateAddition(1, 2, 3) -->
-                  <span class="method-name">validateAddition</span>
-                  <span class="parameters">(1, 2, 3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateSubstraction(3, 3, 0)">
-                  </a> <!-- validateSubstraction(3, 3, 0) -->
-                  <span class="method-name">validateSubstraction</span>
-                  <span class="parameters">(3, 3, 0)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateSubstraction(1, 2, -1)">
-                  </a> <!-- validateSubstraction(1, 2, -1) -->
-                  <span class="method-name">validateSubstraction</span>
-                  <span class="parameters">(1, 2, -1)</span>
+                  <div class="stack-trace"><b>"org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.24 seconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-3US0J0PL&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\riju\AppData\Local\Temp\scoped_dir4796_15364}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d042f204ab310684a32f505d7e28808e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+	at com.t2s.testutil.Utils.selectBrowser(Utils.java:80)
+	at com.t2s.testbase.TestBase.init(TestBase.java:35)
+	at com.t2s.testScripts.calculationtest.openHomePage(calculationtest.java:29)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 25 stack frames<br/> org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.24 seconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;LAPTOP-3US0J0PL&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed), userDataDir=C:\Users\riju\AppData\Local\Temp\scoped_dir4796_15364}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=65.0.3325.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d042f204ab310684a32f505d7e28808e
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)
+	at com.t2s.testutil.Utils.selectBrowser(Utils.java:80)
+	at com.t2s.testbase.TestBase.init(TestBase.java:35)
+	at com.t2s.testScripts.calculationtest.openHomePage(calculationtest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+"</b><br>sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br>sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br>sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br>java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br>org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)<br>org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)<br>org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)<br>org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:882)<br>com.t2s.testutil.Utils.selectBrowser(Utils.java:80)<br>com.t2s.testbase.TestBase.init(TestBase.java:35)<br>com.t2s.testScripts.calculationtest.openHomePage(calculationtest.java:29)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br>org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br>org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br>org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br>org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br>org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br>org.testng.TestRunner.privateRun(TestRunner.java:767)<br>org.testng.TestRunner.run(TestRunner.java:617)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)<br>org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)<br>
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-t2s-class-passed -->
+          </div> <!-- suite-t2s-class-failed -->
+          <div class="suite-t2s-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.t2s.testScripts.calculationtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddition">
+                  </a> <!-- validateAddition -->
+                  <span class="method-name">validateAddition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSubstraction">
+                  </a> <!-- validateSubstraction -->
+                  <span class="method-name">validateSubstraction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-t2s-class-skipped -->
         </div> <!-- panel t2s -->
         <div panel-name="test-xml-t2s" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\GitRepo\T2STest\src\main\resources\testng.xml</span>
+            <span class="header-content">D:\Work\Projects\workCKDemo\T2STest\src\main\resources\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -238,32 +302,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'openHomePage')
 data.setCell(0, 2, 'com.t2s.testScripts.calculationtest')
-data.setCell(0, 3, 21007);
+data.setCell(0, 3, 14644);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateAddition')
+data.setCell(1, 1, 'validateSubstraction')
 data.setCell(1, 2, 'com.t2s.testScripts.calculationtest')
-data.setCell(1, 3, 4697);
+data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateAddition')
 data.setCell(2, 2, 'com.t2s.testScripts.calculationtest')
-data.setCell(2, 3, 3204);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateSubstraction')
-data.setCell(3, 2, 'com.t2s.testScripts.calculationtest')
-data.setCell(3, 3, 2902);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateSubstraction')
-data.setCell(4, 2, 'com.t2s.testScripts.calculationtest')
-data.setCell(4, 3, 2856);
+data.setCell(2, 3, 0);
 window.suiteTableData['t2s']= { tableData: data, tableDiv: 'times-div-t2s'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-t2s">
               </div> <!-- times-div-t2s -->
             </div> <!-- times-div -->
@@ -275,75 +331,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">validateAddition(1, 3, 4)</span>
+              <span class="reporter-method-name">openHomePage</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.selOperator' was found in the page.</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.btnCalc' was found in the page.</span>
-                <span class="reporter-method-output">Clicked on Webelement --> 't2s.calchomePage.btnCalc'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtResult' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-2'</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validateSubstraction(3, 3, 0)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '3' entered in text field --> 't2s.calchomePage.txtFirstVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '3'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '3' entered in text field --> 't2s.calchomePage.txtlastVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '3'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.selOperator' was found in the page.</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.btnCalc' was found in the page.</span>
-                <span class="reporter-method-output">Clicked on Webelement --> 't2s.calchomePage.btnCalc'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtResult' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '0'</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validateAddition(1, 2, 3)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.selOperator' was found in the page.</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.btnCalc' was found in the page.</span>
-                <span class="reporter-method-output">Clicked on Webelement --> 't2s.calchomePage.btnCalc'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtResult' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1'</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">validateSubstraction(1, 2, -1)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '1' entered in text field --> 't2s.calchomePage.txtFirstVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtFirstVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtFirstVal'.Value --> '1'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text --> '2' entered in text field --> 't2s.calchomePage.txtlastVal'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtlastVal' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtlastVal'.Value --> '2'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.selOperator' was found in the page.</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.btnCalc' was found in the page.</span>
-                <span class="reporter-method-output">Clicked on Webelement --> 't2s.calchomePage.btnCalc'</span>
-                <span class="reporter-method-output">Webelement --> 't2s.calchomePage.txtResult' was found in the page.</span>
-                <span class="reporter-method-output">Text returned from web element --> 't2s.calchomePage.txtResult'.Value --> '-1'</span>
+                <span class="reporter-method-output">From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output={null}]</span>
+                <span class="reporter-method-output">From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output=From listner - The test failed out [TestResult name=openHomePage status=FAILURE method=calculationtest.openHomePage()[pri:0, instance:com.t2s.testScripts.calculationtest@150c158] output={null}]]</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -363,24 +354,10 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.t2s.testScripts.calculationtest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">openHomePage</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateAddition(1, 2, 3)</span>
-                <span class="method-start">23285 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateAddition(1, 3, 4)</span>
-                <span class="method-start">27985 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateSubstraction(1, 2, -1)</span>
-                <span class="method-start">31339 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">validateSubstraction(3, 3, 0)</span>
-                <span class="method-start">34195 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
